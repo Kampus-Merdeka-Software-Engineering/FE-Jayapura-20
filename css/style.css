@@ -1,0 +1,769 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.active {
+  background-color: #7a7fba;
+  color: #000;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #0e0f52;
+  font-family: "Arial", sans-serif;
+  position: sticky;
+  width: 100%;
+  margin: 0px;
+  font: 1em sans-serif;
+  top: 0;
+  z-index: 1;
+}
+
+.topnav img {
+  height: 40px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 7px;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #7a7fba;
+}
+
+.black {
+  color: #000;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.header {
+  margin-bottom: 50px;
+  max-width: 100%;
+  height: 400px;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+}
+
+.header-slide {
+  display: none;
+  width: 100%;
+}
+
+.header-text {
+  font-size: 1.5em;
+  font-family: "Arial", sans-serif;
+  margin-left: 1.5em;
+  padding-top: 2.5em;
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+  border-width: 1px;
+  border-style: double;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  background-color: whitesmoke;
+}
+
+.judul {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+  animation-fill-mode: forwards;
+  text-align: center;
+}
+
+.sejarah-judul {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+.sejarah {
+  display: inline-flex;
+}
+
+.sejarah-video {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  size: 100%;
+  width: 700px;
+  height: auto;
+}
+.sejarah-text {
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px;
+  font: 1em sans-serif;
+}
+
+@keyframes example {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -20px;
+  }
+}
+
+.keunggulan {
+  margin-top: 30px;
+  background-color: #c2e2ff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.keunggulan-judul {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+  line-height: 2.5;
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+.unggul1 {
+  vertical-align: middle;
+  line-height: 20px;
+  text-align: center;
+  background-color: #c2e2ff;
+  width: 30%;
+}
+
+.unggul1-ikon {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #0e0f52;
+}
+
+.unggul1-judul {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.unggul1-text {
+  margin-right: 45px;
+  margin-left: 45px;
+  margin-bottom: 60px;
+  font-size: 16px;
+}
+
+.hubungi {
+  display: inline-flex;
+  vertical-align: auto;
+  line-height: 20px;
+  text-align: left;
+}
+
+.hubungi-img {
+  width: 550px;
+  height: 100%;
+  display: flex;
+}
+
+.hubungi-form {
+  display: flex;
+  width: 700px;
+  height: 500px;
+  margin-left: 20px;
+}
+
+.merah {
+  color: red;
+}
+
+.hubungi-form label {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.hubungi-form input {
+  width: 600px;
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+.hubungi-form textarea {
+  font-family: "Arial", sans-serif;
+  color: #8f8f8f;
+  height: 100px;
+  width: 600px;
+  font-size: 14px;
+}
+
+.hubungi-form ::placeholder {
+  font-family: "Arial", sans-serif;
+  color: #8f8f8f;
+  display: initial;
+  font-size: 14px;
+}
+
+.hubungi-form ::-ms-value {
+  font-family: "Arial", sans-serif;
+  color: #000;
+  font-size: 14px;
+}
+
+.kirim {
+  width: 275px;
+  height: 60px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: white;
+  background-color: #6478c3;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.review {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.review-slide {
+  width: 100%;
+  display: flex;
+}
+
+.review-img {
+  width: 40%;
+  height: 500px;
+  margin: 0;
+}
+
+.review-text {
+  font: 1em sans-serif;
+  background-color: #c2e2ff;
+  width: 60%;
+  height: 500px;
+  margin: 0;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.review-judul {
+  font-weight: 600;
+  font: 3em sans-serif;
+  padding-left: 20px;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.review-button {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin-top: 30%;
+  left: 65%;
+}
+.review-button-right {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin-top: 30%;
+  right: 27%;
+}
+
+.footer {
+  background-color: #0e0f52;
+  display: inline-flexblock;
+  color: white;
+  position: relative;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+
+.footer-judul {
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 2.5;
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+.footer-info {
+  line-height: normal;
+  display: table-cell;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+  align-content: center;
+  padding-left: 300px;
+}
+
+.footer-judulinfo {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.footer-text li {
+  list-style-type: none;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-text i {
+  font-size: 20px;
+  align-items: center;
+  margin: 3px;
+}
+
+hr {
+  color: #c2c9ff;
+  margin-top: 3em;
+  width: 100%;
+}
+
+.block {
+  color: #c2c9ff;
+  margin-left: 10em;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .header {
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .sejarah {
+    width: 100%;
+    display: inline;
+  }
+
+  .sejarah-video {
+    display: inline;
+    margin: 5px;
+    width: 80%;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 30px;
+  }
+
+  .sejarah-text {
+    display: block;
+    margin-right: 50px;
+    font: 1em sans-serif;
+    margin-left: 50px;
+  }
+
+  .black {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .unggul1-ikon {
+    font-size: 30px;
+  }
+
+  .unggul1-judul {
+    font-size: 15px;
+  }
+
+  .unggul1-text {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+
+  .hubungi {
+    display: inline;
+  }
+
+  .hubungi-img {
+    width: 641px;
+    height: auto;
+  }
+
+  .hubungi-form input {
+    width: 700px;
+  }
+
+  .hubungi-form textarea {
+    width: 700px;
+  }
+
+  .review {
+    height: 500px;
+  }
+
+  .review-img {
+    width: 100%;
+  }
+
+  .review-slide {
+    width: 100%;
+    height: 500px;
+  }
+
+  .review-judul {
+    padding-top: 10px;
+    font-size: 2em;
+  }
+
+  .review-text {
+    height: 100%;
+    padding-right: 20px;
+  }
+
+  .review-button {
+    border: none;
+    background-color: transparent;
+  }
+
+  .review-button-right {
+    right: 20%;
+    border: none;
+    background-color: transparent;
+  }
+
+  .footer-info {
+    padding-left: 70px;
+  }
+
+  .kirim {
+    width: 384px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .header {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .header-text {
+    font-size: 0.5em;
+    margin-left: 0.5em;
+    margin-top: 110px;
+  }
+
+  .judul {
+    font-size: 20px;
+  }
+
+  .sejarah {
+    width: 100%;
+    display: inline;
+  }
+
+  .sejarah-judul {
+    font-size: 20px;
+  }
+
+  .sejarah-video {
+    display: inline;
+    margin-left: 15px;
+    width: 80%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  .sejarah-text {
+    display: block;
+    margin-right: 50px;
+    font: 0.7em sans-serif;
+    margin-left: 50px;
+  }
+
+  .black {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .unggul1 {
+    line-height: 10px;
+  }
+
+  .keunggulan-judul {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  .unggul1-ikon {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .unggul1-judul {
+    font-size: 10px;
+    margin: 5px;
+  }
+
+  .unggul1-text {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .hubungi {
+    display: inline;
+  }
+
+  .hubungi-img {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .hubungi-form label {
+    font-size: 15px;
+  }
+
+  .hubungi-form input {
+    width: 340px;
+  }
+
+  .hubungi-form textarea {
+    width: 340px;
+  }
+
+  .kirim {
+    width: 85%;
+    height: 60px;
+    display: block;
+    margin-left: 0px;
+  }
+
+  .review {
+    width: 100%;
+    height: 200px;
+    flex-wrap: wrap;
+  }
+
+  .review-img {
+    height: 200px;
+    width: 40%;
+  }
+
+  .review-slide {
+    width: 100%;
+  }
+
+  .review-text {
+    height: 200px;
+    padding-right: 20px;
+    font-size: 0.7em;
+    padding-top: 5px;
+    width: 60%;
+  }
+
+  .review-judul {
+    padding-top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .review-button-right {
+    right: 20%;
+    height: 20px;
+    width: 20px;
+    border: none;
+    background-color: transparent;
+    margin-top: 40%;
+  }
+
+  .review-button {
+    right: 20%;
+    height: 20px;
+    width: 20px;
+    border: none;
+    background-color: transparent;
+    margin-top: 40%;
+    left: 70%;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+
+  .footer-judul {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .footer-info {
+    padding-left: 35px;
+  }
+
+  .footer-judulinfo {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .footer-text li {
+    font-size: 10px;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+
+  .footer-text ul {
+    margin-top: 0px;
+    padding-left: 15px;
+  }
+
+  .footer-text i {
+    font-size: 10px;
+  }
+
+  hr {
+    margin-top: 10px;
+  }
+}
