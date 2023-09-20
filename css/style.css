@@ -235,7 +235,6 @@ body {
 
 .hubungi-form textarea {
   font-family: "Arial", sans-serif;
-  color: #8f8f8f;
   height: 100px;
   width: 600px;
   font-size: 14px;
@@ -254,10 +253,15 @@ body {
   font-size: 14px;
 }
 
+.hubungi-form textarea ::-ms-value{
+  font-family: "Arial", sans-serif;
+  color: #000;
+  font-size: 14px;
+}
+
 .kirim {
-  width: 275px;
+  width: 600px;
   height: 60px;
-  margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 40px;
   color: white;
@@ -266,7 +270,6 @@ body {
   font-size: 16px;
   border: none;
   border-radius: 5px;
-  position: absolute;
 }
 
 .review {
@@ -324,13 +327,11 @@ body {
 
 .footer {
   background-color: #0e0f52;
-  display: inline-flexblock;
+  display: flex;
+  flex-wrap: wrap;
   color: white;
-  position: relative;
-  vertical-align: middle;
   align-items: center;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-evenly;
   padding-bottom: 30px;
   margin-bottom: 0;
   margin-top: 70px;
@@ -348,16 +349,17 @@ body {
   animation-duration: 1s;
   position: relative;
   animation-fill-mode: forwards;
+  width: 100%;
+}
+
+.footer-img{
+  width: 400px;
 }
 
 .footer-info {
   line-height: normal;
-  display: table-cell;
-  justify-content: center;
-  align-items: center;
   line-height: 20px;
-  align-content: center;
-  padding-left: 300px;
+  width: 20%
 }
 
 .footer-judulinfo {
@@ -571,10 +573,6 @@ hr {
     background-color: transparent;
   }
 
-  .footer-info {
-    padding-left: 70px;
-  }
-
   .kirim {
     width: 384px;
     height: 60px;
@@ -739,9 +737,6 @@ hr {
     line-height: 1;
   }
 
-  .footer-info {
-    padding-left: 35px;
-  }
 
   .footer-judulinfo {
     font-size: 12px;

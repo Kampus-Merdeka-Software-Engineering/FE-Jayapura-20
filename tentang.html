@@ -138,18 +138,18 @@
     <div class="judul">HUBUNGI KAMI</div>
     <div class="hubungi">
       <div class="hubungi-form">
-        <form action="/action.php">
-          <label for="nama">Nama <span class="merah">*</span></label
+        <div>
+          <label for="tampil">Nama <span class="merah">*</span></label
           ><br />
           <input
             type="text"
-            id="nama"
-            name="nama"
+            id="tampil"
+            name="tampil"
             placeholder="Sinta Nastalia"
             required
           /><br />
 
-          <label for="email">Email <span class="merah">*</span></label
+          <!-- <label for="email">Email <span class="merah">*</span></label
           ><br />
           <input
             type="email"
@@ -157,63 +157,34 @@
             name="email"
             placeholder="sintanastalia21@gmail.com"
             required
-          /><br />
-
-          <label for="telepon">No Telepon <span class="merah">*</span></label
-          ><br />
-          <input
-            type="number"
-            id="telepon"
-            name="telepon"
-            placeholder="081-234-567-890"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
-            required
-          /><br />
-
-          <label for="resi">No Resi <span class="merah">*</span></label
-          ><br />
-          <input
-            type="text"
-            id="resi"
-            name="resi"
-            placeholder="KC123456789"
-            required
-          /><br />
+          /><br /> -->
 
           <label for="pesan">Pesan <span class="merah">*</span></label
           ><br />
           <textarea
             name="pesan"
-            placeholder="Pesanan saya sudah 1 tahun belum sampai"
+            id="pesan"
+            placeholder="Kecepatan pengiriman sangat bisa diandalkan, paket juga diantar dengan aman"
             required
           ></textarea
           ><br />
 
-          <iframe
-            title="reCAPTCHA"
-            src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6LfptNYZAAAAANP27so-PHxfZA27-HFmj2dUIcBw&amp;co=aHR0cHM6Ly93d3cuc2ljZXBhdC5jb206NDQz&amp;hl=en&amp;type=image&amp;v=0hCdE87LyjzAkFO5Ff-v7Hj1&amp;theme=light&amp;size=normal&amp;badge=bottomright&amp;cb=va60jsl99hys"
-            width="304"
-            height="78"
-            role="presentation"
-            name="a-xlh240umykeb"
-            frameborder="0"
-            scrolling="no"
-            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
-          ></iframe>
+          <label for="img">Pilih Gambar: </label>
+          <input type="file" id="img" name="img" accept="image/jpeg, image/png, image/jpg">
 
-          <button type="submit" class="kirim">KIRIM</button><br />
-        </form>
+          <button type="submit" class="kirim" onclick="addPesan()">KIRIM</button><br />
+          </div>
       </div>
       <div class="hubungi-img">
         <img class="hubungi-img" src="asset/logo (2).png" />
       </div>
     </div>
 
-    <div class="review">
+    <div class="review" id="review">
       <div class="review-slide">
         <img class="review-img" src="asset/person1.jpg" alt="person1" />
         <div class="review-text">
-          <div class="review-judul">Angela - "Layanan Luar Biasa!"</div>
+          <div class="review-judul">Angela </div>
           "Saya telah menggunakan layanan pengiriman mereka selama
           bertahun-tahun, dan mereka selalu memberikan pengalaman luar biasa.
           Barang selalu tiba dengan aman dan tepat waktu. Tim layanan pelanggan
@@ -225,7 +196,7 @@
         <img class="review-img" src="asset/person2.jpg" alt="person2" />
         <div class="review-text">
           <div class="review-judul">
-            Jhonson - "Pelayanan Pelanggan Terbaik"
+            Jhonson
           </div>
           Saya ingin mengapresiasi tim layanan pelanggan mereka yang luar biasa.
           Mereka selalu siap membantu dengan pertanyaan dan permintaan saya.
@@ -237,7 +208,7 @@
         <img class="review-img" src="asset/person3.jpg" alt="person3" />
         <div class="review-text">
           <div class="review-judul">
-            Novaria - "Pengiriman Kilat Tanpa Kompromi"
+            Novaria 
           </div>
           "KilatCare adalah mitra andalan saya untuk pengiriman cepat. Mereka
           tidak pernah mengorbankan keamanan atau kualitas dalam pengiriman
@@ -248,7 +219,7 @@
       <div class="review-slide">
         <img class="review-img" src="asset/person4.jpg" alt="person2" />
         <div class="review-text">
-          <div class="review-judul">Diggie - "Sahabat Lingkungan!"</div>
+          <div class="review-judul">Diggie </div>
           "Saya sangat menghargai komitmen KilatCare terhadap keberlanjutan.
           Pengiriman ramah lingkungan mereka membantu saya merasa lebih baik
           tentang jejak karbon saya. Mereka adalah pilihan bijak untuk
@@ -263,6 +234,9 @@
 
     <div class="footer">
       <div class="footer-judul">TEMUKAN KAMI</div>
+      <div class="footer-img">
+        <img class="footer-img" src="asset/logo (2).png" />
+      </div>
       <div class="footer-info">
         <div class="footer-judulinfo">INFORMASI DAN LAYANAN</div>
         <div class="footer-text">

@@ -38,14 +38,59 @@ function showDivs(n) {
     x[i].style.display = "none";
   }
   x[slideIndex - 1].style.display = "flex";
+}
 
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+// Hubungi - Get Data
+
+let tampilan = [];
+let gambaran = [];
+let perpesan = [];
+
+function addPesan() {
+  const tampilInput = document.getElementById('tampil');
+  const gambarInput = document.getElementById('img');
+  const pesanInput = document.getElementById('pesan');
+  const tampilValue = tampilInput.value.trim();
+
+  // const fileInput = document.querySelector('input[type="file"]');
+  // fileInput.addEventListener('change', (event) => {
+  //   const file = event.target.files[0];
+  //   const imageUrl = URL.createObjectURL(file);
+  //   const img = document.createElement('img');
+  //   img.src = imageUrl;
+  //   document.body.appendChild(img);
+  // });
+  
+const gambarValue = gambarInput.addEventListener("change", () => {
+  let reader = new FileReader();
+  reader.readAsDataURL(gambarInput.files[0]);
+  reader.addEventListener("load", () => {
+    return reader.result
+  });
+});
+
+  if (tampilValue) {
+    tampilan.push(tampilValue);
+    gambaran.push(gambarValue);
+    perpesan.push(pesanInput.value);
+    renderTampilan();
+    tampilInput.value = '';
+    gambarInput.value = '';
+    pesanInput.value = '';
   }
-  slideIndex++;
-  if (slideIndex > x.length) {
-    slideIndex = 1;
-  }
-  x[slideIndex - 1].style.display = "flex";
-  setTimeout(showDivs, 4000);
+}
+
+function renderTampilan(){
+  const list = document.getElementById('review');
+  list.innerHTML += "";
+  tampilan.forEach((tampil, index) => {
+    list.innerHTML += `
+    <div class="review-slide">
+    <img class="review-img" src="${(gambaran[index])}" alt="person"/>
+    <div class="review-text">
+      <div class="review-judul">${tampil}</div>
+      ${perpesan[index]}
+    </div>
+  </div>`;
+  })
 }
