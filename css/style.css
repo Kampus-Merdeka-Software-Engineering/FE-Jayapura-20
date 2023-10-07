@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   margin:0;
 }
 
@@ -11,7 +13,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #0e0f52;
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   position: sticky;
   width: 100%;
   margin: 0px;
@@ -39,6 +41,7 @@ body {
   font-weight: 600;
   text-decoration: none;
   font-size: 0.8em;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .topnav-right {
@@ -74,7 +77,7 @@ body {
 
 .header-text {
   font-size: 1.5em;
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   margin-left: 1.5em;
   padding-top: 2.5em;
   padding-left: 0.5em;
@@ -92,7 +95,7 @@ body {
 }
 
 .judul {
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 36px;
   font-weight: 600;
   margin-top: 50px;
@@ -106,7 +109,7 @@ body {
 }
 
 .sejarah-judul {
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 36px;
   font-weight: 600;
   text-align: center;
@@ -156,7 +159,7 @@ body {
 }
 
 .keunggulan-judul {
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 36px;
   font-weight: 600;
   text-align: center;
@@ -221,7 +224,7 @@ body {
 }
 
 .hubungi-form label {
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -233,27 +236,27 @@ body {
 }
 
 .hubungi-form textarea {
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   height: 100px;
   width: 600px;
   font-size: 14px;
 }
 
 .hubungi-form ::placeholder {
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #8f8f8f;
   display: initial;
   font-size: 14px;
 }
 
 .hubungi-form ::-ms-value {
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #000;
   font-size: 14px;
 }
 
 .hubungi-form textarea ::-ms-value{
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #000;
   font-size: 14px;
 }
@@ -265,7 +268,7 @@ body {
   margin-bottom: 40px;
   color: white;
   background-color: #6478c3;
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
   border: none;
   border-radius: 5px;
@@ -338,7 +341,7 @@ body {
 
 .footer-judul {
   color: white;
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 36px;
   font-weight: 600;
   text-align: center;
@@ -365,18 +368,22 @@ body {
   font-size: 20px;
   text-align: center;
   font-weight: 600;
+  font-family: 'Nunito Sans', sans-serif;
+
 }
 
 .footer-text li {
   list-style-type: none;
   font-size: 16px;
   text-decoration: none;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .footer-text i {
   font-size: 20px;
   align-items: center;
   margin: 3px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 hr {
@@ -397,7 +404,7 @@ hr {
 }
 
 .pilihdp label{
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 0px;
@@ -412,7 +419,7 @@ hr {
 }
 
 .pilihdp select{
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 22px;
   line-height: 1.5;
   position: relative;
@@ -420,7 +427,7 @@ hr {
 }
 
 .pilihdp input{
-  font-family: "Arial", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 22px;
   line-height: 1.5;
   position: relative;
@@ -457,12 +464,13 @@ hr {
   display: flex;
   max-width: 100%;
 }
+
 .Wordtext {
     font-weight: 600;
     margin: 17px;
     text-align: center;
     overflow: hidden;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 24px;
     font-weight: 600;
     margin-top: 30px;
@@ -489,6 +497,20 @@ hr {
   border-radius: 10px;
   background-color: #405DB8;
   color: #f2f2f2;
+}
+
+.block-bawah {
+    display: block;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin-top: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    text-align: left;
+    color: #ffffff;
+    background-color: #0E0F52;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 

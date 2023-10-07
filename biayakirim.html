@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>KILATCARE</title>
     <link rel="stylesheet" type="text/css" href="css/biayakirim.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="@icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   <body>
-    <div class="header" role="banner">
       <div class="topnav">
-        <img src="asset/logo.png" />
+        <img src="asset/logo.png" alt="logo"/>
         <a href="KILATCARE">KILATCARE</a>
         <div class="topnav-right">
           <a href="index.html">HOME</a>
@@ -15,31 +18,25 @@
           <a class="active" href="biayakirim.html">BIAYA KIRIM</a>
           <a href="droppoint.html">DROP POINT</a>
         </div>
-        <div class="menu"></div>
+          <div class="menu"></div>
       </div>
-
-      <div class="header-text">
-        Kilat dan Cermat<br />
-        Antar dengan Responsif dan Efisien
+      <div class="header">
+      <div class="header-img">
+         <img src="asset/banner7.png" width="100%">
       </div>
     </div>
-
     <div class="biaya">CEK BIAYA KIRIM</div>
-
     <div class="card">
       <form class="form">
         <label for="asal">Asal<span class="merah">*</span></label>
         <input class="form-content" type="text" id="asal" name="asal" placeholder="Pilih kota asal" required />
-
         <label for="tujuan">Tujuan<span class="merah">*</span></label>
         <input class="form-content" type="text" id="tujuan" name="tujuan" placeholder="Pilih kota tujuan" required />
-
         <label for="berat">Berat<span class="merah">*</span></label>
         <input class="form-berat" type="number" id="jumlah" name="berat" placeholder="kg" required />
         <button type="button" class="btn">Cek Ongkir</button><br />
       </form>
     </div>
-
     <div class="table">
       <table>
         <thead>
@@ -52,13 +49,7 @@
         <tbody id="data"></tbody>
       </table>
     </div>
-
-    <div class="footer">
-      <div class="footer-text">© 2023 Team J RevoU</div>
-    </div>
-
-    <script src="js/javascriptbk.js"></script>
-
-    
+    <small class="block">© KILATCARE - 2023</small>
+    <script src="js/javascriptbk.js"></script>  
   </body>
 </html>

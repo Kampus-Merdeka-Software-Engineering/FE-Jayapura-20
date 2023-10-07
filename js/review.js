@@ -14,39 +14,32 @@ function addPesan() {
     formData.append('pesan', pesanInput.value);
     formData.append('image', file); // Menggunakan file langsung
 
-    if (isSending) {
-        return; // Jika sedang mengirim, keluar dari fungsi
-    }
     isSending = true;
-    fetch(`http://localhost:3000/review`, {
+    fetch(`be-jayapura-20-production.up.railway.app/review`, {
         method: "POST",
         body: formData // Menggunakan formData
     })
     .then(function (response) {
-        isSending = false;
         return response.json();
     })
     .then(function (data) {
-        console.log(data)
-        tampilInput.value = "";
-        gambarInput.value = "";
-        pesanInput.value = "";
-        showDivs();
-        const list = document.getElementById("review");     
-        for (let i = 0; i < data.length; i++) {
-            const item = data[i];
-            list.innerHTML += `
+        console.log(data)        
+        const list = document.getElementById("review"); 
+        list.innerHTML += `
                 <div class="review-slide">
                     <img class="review-img" src="${gambarValue}" alt="person"/>
                     <div class="review-text">
-                        <div class="review-judul">${item.nama}</div>
-                        ${item.pesan}
+                        <div class="review-judul">${tampilInput.value}</div>
+                        ${pesanInput.value}
                     </div>
-                </div>`;
-        };
+                </div>`;    
+        tampilInput.value = "";
+        gambarInput.value = "";
+        pesanInput.value = "";
+        showDivs(1);
     })
     .catch(function (error) {
         console.log(error);
-        isSending = false;
     });
 }
+
