@@ -1,5 +1,4 @@
 var btn = document.getElementById("kirim");
-var isSending = false;
 btn.addEventListener("click", addPesan);
 
 function addPesan() {

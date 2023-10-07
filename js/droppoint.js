@@ -1,9 +1,7 @@
 
 var btn = document.getElementById("btnCekdp")
 var daerah = document.getElementById("daerah")
-
 btn.addEventListener("click", cekdp);
-
 function cekdp() {
     fetch(`https://be-jayapura-20-production.up.railway.app/filter?${
         new URLSearchParams({
