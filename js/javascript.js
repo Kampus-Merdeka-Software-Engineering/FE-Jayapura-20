@@ -1,3 +1,6 @@
+// const { response } = require("express");
+// const { daerah } = require("../../app/controller");
+
 //Header Slide
 var myIndex = 0;
 carousel();
@@ -19,6 +22,10 @@ function carousel() {
 
 //Review Slide
 var slideIndex = 1;
+setInterval(() => {
+  showDivs(slideIndex);
+  slideIndex++;
+}, 2000);
 showDivs(slideIndex);
 
 function plusDivs(n) {
@@ -42,41 +49,43 @@ function showDivs(n) {
 
 // Hubungi - Get Data
 
-let tampilan = [];
-let gambaran = [];
-let perpesan = [];
+// let tampilan = [];
+// let gambaran = [];
+// let perpesan = [];
 
-function addPesan() {
-  const tampilInput = document.getElementById("tampil");
-  const gambarInput = document.getElementById("img");
-  const file = gambarInput.files[0];
-  const gambarValue = URL.createObjectURL(file);
-  const pesanInput = document.getElementById("pesan");
-  const tampilValue = tampilInput.value.trim();
+// function addPesan() {
+//   const tampilInput = document.getElementById("tampil");
+//   const gambarInput = document.getElementById("img");
+//   const file = gambarInput.files[0];
+//   const gambarValue = URL.createObjectURL(file);
+//   const pesanInput = document.getElementById("pesan");
+//   const tampilValue = tampilInput.value.trim();
 
-  if (tampilValue) {
-    tampilan.push(tampilValue);
-    gambaran.push(gambarValue);
-    perpesan.push(pesanInput.value);
-    renderTampilan();
-    tampilInput.value = "";
-    gambarInput.value = "";
-    pesanInput.value = "";
-    showDivs();
-  }
-}
+//   if (tampilValue) {
+//     tampilan.push(tampilValue);
+//     gambaran.push(gambarValue);
+//     perpesan.push(pesanInput.value);
+//     renderTampilan();
+//     tampilInput.value = "";
+//     gambarInput.value = "";
+//     pesanInput.value = "";
+//     showDivs();
+//   }
+// }
 
-function renderTampilan() {
-  const list = document.getElementById("review");
-  list.innerHTML += "";
-  tampilan.forEach((tampil, index) => {
-    list.innerHTML += `
-    <div class="review-slide">
-      <img class="review-img" src="${gambaran[index]}" alt="person"/>
-      <div class="review-text">
-        <div class="review-judul">${tampil}</div>
-        ${perpesan[index]}
-      </div>
-    </div>`;
-  });
-}
+// function renderTampilan() {
+//   const list = document.getElementById("review");
+//   list.innerHTML += "";
+//   tampilan.forEach((tampil, index) => {
+//     list.innerHTML += `
+//     <div class="review-slide">
+//       <img class="review-img" src="${gambaran[index]}" alt="person"/>
+//       <div class="review-text">
+//         <div class="review-judul">${tampil}</div>
+//         ${perpesan[index]}
+//       </div>
+//     </div>`;
+//   });
+// }
+
+

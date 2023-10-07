@@ -26,12 +26,10 @@
       <img src="asset/logo (2).png" />
       <a href="KILATCARE">KILATCARE</a>
       <div class="topnav-right">
-        <a href="index.html">HOME</a>
-        <a href="lacak.html">LACAK</a>
+        <a class="active" href="index.html">HOME</a>
+        <a href="lokasi.html">LOKASI</a>
         <a href="biayakirim.html">BIAYA KIRIM</a>
         <a href="droppoint.html">DROP POINT</a>
-        <a href="layanan.html">LAYANAN</a>
-        <a class="active" href="tentang.html">TENTANG KAMI</a>
       </div>
     </div>
     <div class="header">
@@ -45,6 +43,50 @@
         Antar dengan Responsif dan Efisien
       </div>
     </div>
+
+    <div class="Word">
+      <div class="Wordtext">LAYANAN</div>
+
+      <!-- Kolom Pertama -->
+      <div class="kolom">
+        <img class="gambar" src="asset/dolly.png" alt="Gambar 1" />
+        <h2>Kilat Same Day</h2>
+        <p>
+          Nikmati kecepatan tanpa kompromi dengan layanan pengiriman dalam
+          sehari kami. Dengan pengambilan barang dan pengantaran yang sama hari,
+          Anda bisa merasakan kenyamanan dan keamanan barang Anda sampai ke
+          tujuan dengan cepat dan efisien. Ideal untuk situasi mendesak atau
+          saat Anda ingin barang tiba dengan segera.
+        </p>
+      </div>
+
+      <!-- Kolom Kedua -->
+      <div class="kolom">
+        <img class="gambar" src="asset/truck.png" alt="Gambar 2" />
+        <h2>Kilat Reguler</h2>
+        <p>
+          Layanan pengiriman reguler kami memberikan keseimbangan yang sempurna
+          antara waktu dan biaya. Dengan waktu pengiriman yang dapat diandalkan
+          dan pilihan fleksibel, Anda dapat mengatur pengiriman barang Anda
+          sesuai jadwal yang nyaman. Solusi yang baik untuk pengiriman yang
+          tidak memerlukan kecepatan ekstra.
+        </p>
+      </div>
+
+      <!-- Kolom Ketiga -->
+      <div class="kolom">
+        <img class="gambar" src="asset/truckExpress.png" alt="Gambar 3" />
+        <h2>Kilat Express</h2>
+        <p>
+          Dapatkan barang Anda dalam hitungan jam dengan layanan pengiriman
+          ekspres kami. Dirancang untuk kebutuhan yang mendesak, layanan ini
+          mengutamakan kecepatan dan efisiensi. Pengambilan dan pengantaran
+          dengan prioritas tinggi memastikan barang Anda tiba dengan cepat dan
+          aman, memenuhi harapan Anda dalam waktu singkat.
+        </p>
+      </div>
+    </div>
+
     <div class="sejarah-judul">SEJARAH PERUSAHAAN</div>
     <div class="sejarah">
       <div class="sejarah-video">
@@ -149,16 +191,6 @@
             required
           /><br />
 
-          <!-- <label for="email">Email <span class="merah">*</span></label
-          ><br />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="sintanastalia21@gmail.com"
-            required
-          /><br /> -->
-
           <label for="pesan">Pesan <span class="merah">*</span></label
           ><br />
           <textarea
@@ -177,7 +209,7 @@
             accept="image/jpeg, image/png, image/jpg"
           />
 
-          <button type="submit" class="kirim" onclick="addPesan()">KIRIM</button
+          <button type="submit" id="kirim" class="kirim" onclick="addPesan()">KIRIM</button
           ><br />
         </div>
       </div>
@@ -202,10 +234,10 @@
         <img class="review-img" src="asset/person2.jpg" alt="person2" />
         <div class="review-text">
           <div class="review-judul">Jhonson</div>
-          Saya ingin mengapresiasi tim layanan pelanggan mereka yang luar biasa.
-          Mereka selalu siap membantu dengan pertanyaan dan permintaan saya.
-          Kombinasi layanan pelanggan yang hebat dengan pengiriman yang handal
-          membuat perusahaan ini yang terbaik di kelasnya."
+          "Saya ingin mengapresiasi tim layanan pelanggan mereka yang luar
+          biasa. Mereka selalu siap membantu dengan pertanyaan dan permintaan
+          saya. Kombinasi layanan pelanggan yang hebat dengan pengiriman yang
+          handal membuat perusahaan ini yang terbaik di kelasnya."
         </div>
       </div>
       <div class="review-slide">
@@ -277,6 +309,7 @@
       <small class="block">© 2023 Team J RevoU</small>
     </div>
     <script src="js/javascript.js"></script>
+    <script src="js/review.js"></script>
   </body>
 </html>
 <!-- the new one -->

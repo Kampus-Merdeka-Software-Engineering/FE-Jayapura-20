@@ -1,7 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 0;
-  margin-right: 0;
+  margin:0;
 }
 
 .active {
@@ -111,7 +110,7 @@ body {
   font-size: 36px;
   font-weight: 600;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
   margin-bottom: 0px;
   line-height: 1.5;
   animation-name: example;
@@ -391,6 +390,114 @@ hr {
   margin-left: 10em;
 }
 
+.pilihdp {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pilihdp label{
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  line-height: 1.5;
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+  animation-fill-mode: forwards;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.pilihdp select{
+  font-family: "Arial", sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  position: relative;
+  width: 80%;
+}
+
+.pilihdp input{
+  font-family: "Arial", sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  position: relative;
+  width: 15%;
+}
+.blokdp{
+  background-color: lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.kota{
+  font-weight: 600;
+  padding-right: 40px;
+  width: 20%;
+}
+
+.alamat {
+  font-weight: 400;
+  padding-right: 40px;
+  width: 60%;
+}
+
+.header-dp{
+  display: block;
+  width: 100%;
+}
+
+.Word {
+  display: flex;
+  max-width: 100%;
+}
+.Wordtext {
+    font-weight: 600;
+    margin: 17px;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    line-height: 1.5;
+    animation-name: example;
+    animation-duration: 1s;
+    position: relative;
+    animation-fill-mode: forwards;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.kolom {
+  text-align: center;
+  float: left;
+  width: 33,33%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #405DB8;
+  color: #f2f2f2;
+}
+
+
+/* Gaya CSS untuk gambar */
+.gambar {
+  width: 15%;
+  height: 15%;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
@@ -479,6 +586,10 @@ hr {
   .header {
     height: 200px;
     margin-bottom: 10px;
+  }
+
+  .sejarah-judul {
+    margin-top: 50px;
   }
 
   .sejarah {
@@ -577,6 +688,11 @@ hr {
     width: 384px;
     height: 60px;
   }
+
+  .Word{
+    width: 100%;
+    display:inline;
+  }
 }
 
 @media only screen and (max-width: 414px) {
@@ -601,6 +717,7 @@ hr {
 
   .sejarah-judul {
     font-size: 20px;
+    margin-top: 100px;
   }
 
   .sejarah-video {

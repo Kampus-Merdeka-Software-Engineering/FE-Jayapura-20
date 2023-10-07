@@ -1,0 +1,270 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.active {
+  background-color: #7a7fba;
+  color: #000;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #0e0f52;
+  font-family: "Arial", sans-serif;
+  width: 100%;
+  margin: 0px;
+  font: 1em sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.topnav img {
+  height: 40px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 7px;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #7a7fba;
+}
+
+.header {
+  background-image: url("../asset/banner4.png");
+  height: 400px;
+  width: 100%;
+  padding: 0cm;
+  float: right;
+  margin-bottom: 50px;
+}
+
+.table {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+table,
+td,
+th {
+  border: 1px solid gray;
+  padding: 8px;
+  text-align: center;
+}
+
+.header-text {
+  margin-left: 1.5em;
+  padding-top: 2.5em;
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+  font-size: 1.5em;
+  font-family: "Arial", sans-serif;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.biaya {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+  animation-name: example;
+  animation-duration: 1s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -20px;
+  }
+}
+
+.card {
+  height: 380px;
+  width: 75%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+}
+
+.form {
+  padding-right: 150px;
+  padding-left: 150px;
+  margin-bottom: 150px;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.form-content {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #fff;
+  border-color: #e4e4e4;
+  border-radius: 8px;
+  outline: none;
+  font-size: 18px;
+}
+
+.form-berat {
+  width: 18%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid #fff;
+  border-color: #e4e4e4;
+  border-radius: 8px;
+  outline: none;
+  font-size: 18px;
+  text-align: center;
+}
+
+.form-content:hover {
+  border-color: black;
+}
+
+.form-berat:hover {
+  border-color: black;
+}
+
+.merah {
+  color: red;
+}
+
+.btn {
+  color: white;
+  background-color: #6478c3;
+  font-family: "Arial", sans-serif;
+  border: none;
+  height: 40px;
+  outline: none;
+  border-radius: 8px;
+  margin-top: 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #0e0f52;
+  color: white;
+  font-family: "Arial", sans-serif;
+  width: 100%;
+  height: 15px;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-text {
+  margin-left: 50px;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font: 1em sans-serif;
+}
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 817px) {
+  .topnav-right {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    float: right;
+    margin-top: 8px;
+    margin-right: 15px;
+    background-image: url("asset/menu.png");
+    background-size: cover;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .menu.act {
+    display: block;
+    float: right;
+    margin-top: 8px;
+    margin-right: 15px;
+    background-image: url("asset/close.png");
+    background-size: cover;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .topnav-right.act {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topnav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+  .form {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .form {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}

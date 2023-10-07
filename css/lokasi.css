@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.active {
+    background-color: #7A7FBA;
+    color: #000;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #0E0F52;
+    font-family: "Arial", sans-serif;
+    position: sticky;
+    width: 100%;
+    margin: 0px;
+    font: 1em sans-serif;
+    top: 0;
+    z-index: 1;
+}
+
+.topnav img{
+    height: 40px;
+    float: left;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.topnav-right{
+    float: right;
+}
+
+.topnav a:hover{
+    background-color: #7A7FBA;
+}
+
+.black{
+    color: #000;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.header{
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: 400px;
+}
+
+.header-img{
+    width: 100%;
+    height: auto;
+}
+
+.header-text {
+    font-size: 1.5em;
+    font-family: "Arial", sans-serif;
+    margin-left: 1.5em;
+    padding-top: 2.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+    border-width: 1px;
+    border-style: double;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: whitesmoke;
+}
+
+.judul {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    line-height: 1.5;;
+    animation-name: example;
+    animation-duration: 1s;
+    position: relative;
+    animation-fill-mode: forwards;
+    text-align: center;
+  }
+
+  .Lokasi-judul {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    line-height: 1.5;;
+    animation-name: example;
+    animation-duration: 1s;
+    position: relative;
+    animation-fill-mode: forwards;
+  }
+  .iframe {
+object-position: center;
+position: sticky;
+ }
+  
+.h2{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 1em sans-serif;
+    font-size: 10px;
+}
+
+
+.h1 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    font: 1em sans-serif;
+    font-size: 10px;
+}
+hr {
+    margin-top: 3em;
+    width: 100%;
+  }
+  .block {
+    display: block;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    text-align: left;
+    color: #ffffff;
+    background-color: #0E0F52;
+  }
+.Outlet-judul {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+   position: relative;
+    font-size: 20px;
+
+}
