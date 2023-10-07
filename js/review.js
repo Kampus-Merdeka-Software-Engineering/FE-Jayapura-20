@@ -15,7 +15,7 @@ function addPesan() {
     formData.append('image', file); // Menggunakan file langsung
 
     isSending = true;
-    fetch(`be-jayapura-20-production.up.railway.app/review`, {
+    fetch(`http://be-jayapura-20-production.up.railway.app/review`, {
         method: "POST",
         body: formData // Menggunakan formData
     })

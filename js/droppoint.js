@@ -5,7 +5,7 @@ var daerah = document.getElementById("daerah")
 btn.addEventListener("click", cekdp);
 
 function cekdp() {
-    fetch(`be-jayapura-20-production.up.railway.app/filter?${
+    fetch(`http://be-jayapura-20-production.up.railway.app/filter?${
         new URLSearchParams({
             kategori: daerah.value
         })
