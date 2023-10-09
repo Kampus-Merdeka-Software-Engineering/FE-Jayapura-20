@@ -96,31 +96,5 @@ Kombinasi teknologi ini memungkinkan KilatCare untuk menyediakan layanan informa
 
 <br>
 
-## 🌐 Link XGrow Final Project
-
-Di bawah ini dua link untuk menuju ke hasil project final XGrow:
-
-| Website              | Link                                               | Keterangan                                                                            |
-|----------------------|----------------------------------------------------|---------------------------------------------------------------------------------------|
-| XGrow                | [Menuju Website](https://kampus-merdeka-software-engineering.github.io/front-end-capstone-project-section-semarang-group-10/) | Link website utama XGrow.|
-| XGrowDev             | [Menuju Website](https://back-end-capstone-project-section-semarang-group-10.bimamaarschal.repl.co/)| Link website pengembangan XGrow, bagi pengembang untuk mengetahui Endpoint API dan lainnya.|
-
-<br>
-
-## Tim 10 Section Semarang
-XGrow adalah project yang dibangun dengan konsentrasi dan harapan besar oleh Grub 10 Section Semarang KM AUG23, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ). 
-<br> Berikut tim perancang dan pengembang XGrow:
-
-| Nama                   | Role                      |
-|------------------------|---------------------------|
-| Bima Maarschal         | Project Leader            |
-| Fajar Nur Shodiq       | Frontend Engineer         |
-| Robi'ah Al Adawiyah    | Frontend Engineer         |
-| Kamila Adha Fathimah   | Backend Engineer          |
-| Rindu Wastuti Idroes   | Backend Engineer          |
-| Whilli Usmania         | Quality Assurance         |
-
-<br>
-
 ## Terima Kasih
 Sekian dari project kami, kami masih belajar dan akan terus berusaha untuk menjadi lebih baik. Akhir kata, semoga bermanfaat dan sampai jumpa!
