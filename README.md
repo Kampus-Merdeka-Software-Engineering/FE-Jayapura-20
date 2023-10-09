@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/0wBSnje4)
 # KilatCare - Penyedia Informasi Pengiriman Barang
 <p align="center">
-  <img src="hhttps://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/assets/logo (2).png" alt="logo" width="600px" height="200px">
+  <img src="hhttps://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/asset/logo (2).png" alt="logo" width="600px" height="200px">
 </p>
 KilatCare adalah website penyedia informasi pengiriman barang yang mengutamakan kecepatan, keamanan, dan kepuasan pelanggan. 
 Layanan kami mencakup:
@@ -60,67 +60,39 @@ Selamat menggunakan website KilatCare! Kami berharap Anda memiliki pengalaman pe
 
 KilatCare adalah proyek pengiriman barang yang dibangun dengan berbagai teknologi yang kuat. Di bawah ini adalah daftar teknologi yang digunakan dalam proyek ini bersama dengan penjelasan singkat mengenai kegunaannya.
 
-## HTML (Hypertext Markup Language)
+- **HTML (Hypertext Markup Language)**: HTML digunakan untuk membangun struktur dasar dari halaman web KilatCare, termasuk elemen-elemen seperti header, footer, dan konten utama.
 
-- **Kegunaan**: HTML digunakan untuk membangun struktur dasar dari halaman web KilatCare, termasuk elemen-elemen seperti header, footer, dan konten utama.
+- **CSS (Cascading Style Sheets)**: CSS digunakan untuk mengatur tampilan dan gaya visual dari halaman web KilatCare, termasuk desain tata letak, warna, dan tipografi.
 
-## CSS (Cascading Style Sheets)
+- **JavaScript (JS)**: JavaScript digunakan untuk membuat halaman web menjadi interaktif. Ini termasuk validasi formulir, efek animasi, dan manipulasi data pada sisi klien.
 
-- **Kegunaan**: CSS digunakan untuk mengatur tampilan dan gaya visual dari halaman web KilatCare, termasuk desain tata letak, warna, dan tipografi.
+- **Node.js**: Node.js digunakan sebagai lingkungan runtime di sisi server untuk menjalankan server web KilatCare. Ini memungkinkan penanganan permintaan HTTP, routing, dan logika bisnis di belakang layar.
 
-## JavaScript (JS)
+- **SQL (Structured Query Language)**: SQL digunakan untuk mengelola basis data KilatCare. Ini digunakan untuk menyimpan dan mengambil data pelanggan, pesanan, dan informasi lainnya yang diperlukan.
 
-- **Kegunaan**: JavaScript digunakan untuk membuat halaman web menjadi interaktif. Ini termasuk validasi formulir, efek animasi, dan manipulasi data pada sisi klien.
+- **Postman**: Postman digunakan untuk menguji dan menguji ulang API yang digunakan dalam proyek KilatCare. Ini membantu memastikan keandalan API kami sebelum diterapkan dalam produksi.
 
-## Node.js
+- **GitHub**: GitHub digunakan untuk mengelola kode sumber proyek KilatCare. Ini memungkinkan kolaborasi tim, pelacakan perubahan, dan manajemen versi kode.
 
-- **Kegunaan**: Node.js digunakan sebagai lingkungan runtime di sisi server untuk menjalankan server web KilatCare. Ini memungkinkan penanganan permintaan HTTP, routing, dan logika bisnis di belakang layar.
-
-## SQL (Structured Query Language)
-
-- **Kegunaan**: SQL digunakan untuk mengelola basis data KilatCare. Ini digunakan untuk menyimpan dan mengambil data pelanggan, pesanan, dan informasi lainnya yang diperlukan.
-
-## Postman
-
-- **Kegunaan**: Postman digunakan untuk menguji dan menguji ulang API yang digunakan dalam proyek KilatCare. Ini membantu memastikan keandalan API kami sebelum diterapkan dalam produksi.
-
-## GitHub
-
-- **Kegunaan**: GitHub digunakan untuk mengelola kode sumber proyek KilatCare. Ini memungkinkan kolaborasi tim, pelacakan perubahan, dan manajemen versi kode.
-
-## Railway
-
-- **Kegunaan**: Railway digunakan sebagai platform hosting proyek KilatCare secara online. Ini memungkinkan kami untuk mempublikasikan aplikasi web secara global agar dapat diakses oleh pelanggan kami.
+- **Railway**: Railway digunakan sebagai platform hosting proyek KilatCare secara online. Ini memungkinkan kami untuk mempublikasikan aplikasi web secara global agar dapat diakses oleh pelanggan kami.
 
 Kombinasi teknologi ini memungkinkan KilatCare untuk menyediakan layanan informasi pengiriman barang yang efisien dan dapat diandalkan kepada pelanggan kami.
 
 <br>
 
-## 🌐 Link XGrow Final Project
+# Anggota Tim KilatCare
 
-Di bawah ini dua link untuk menuju ke hasil project final XGrow:
+Berikut adalah anggota tim KilatCare yang berkontribusi dalam pengembangan proyek ini:
 
-| Website              | Link                                               | Keterangan                                                                            |
-|----------------------|----------------------------------------------------|---------------------------------------------------------------------------------------|
-| XGrow                | [Menuju Website](https://kampus-merdeka-software-engineering.github.io/front-end-capstone-project-section-semarang-group-10/) | Link website utama XGrow.|
-| XGrowDev             | [Menuju Website](https://back-end-capstone-project-section-semarang-group-10.bimamaarschal.repl.co/)| Link website pengembangan XGrow, bagi pengembang untuk mengetahui Endpoint API dan lainnya.|
+1. **Ni Kadek Sinta Nastalia sebagai Project Leader & PIC Backend Development**
+2. **Ainniya Berlin Febriyanti sebagai PIC Frontend Development**
+3. **Regita Afriani sebagai PIC Frontend Development**
+4. **Astri Rahmawati sebagai PIC Quality Assurance**
 
-<br>
+Seluruh anggota tim berperan penting dalam menjalankan proyek KilatCare dan berkontribusi untuk keberhasilan proyek kami.
 
-## Tim 10 Section Semarang
-XGrow adalah project yang dibangun dengan konsentrasi dan harapan besar oleh Grub 10 Section Semarang KM AUG23, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ). 
-<br> Berikut tim perancang dan pengembang XGrow:
-
-| Nama                   | Role                      |
-|------------------------|---------------------------|
-| Bima Maarschal         | Project Leader            |
-| Fajar Nur Shodiq       | Frontend Engineer         |
-| Robi'ah Al Adawiyah    | Frontend Engineer         |
-| Kamila Adha Fathimah   | Backend Engineer          |
-| Rindu Wastuti Idroes   | Backend Engineer          |
-| Whilli Usmania         | Quality Assurance         |
-
-<br>
 
 ## Terima Kasih
-Sekian dari project kami, kami masih belajar dan akan terus berusaha untuk menjadi lebih baik. Akhir kata, semoga bermanfaat dan sampai jumpa!
+Sekian dari project kami, kami masih belajar dan akan terus berusaha untuk menjadi lebih baik. Akhir kata, Selamat menggunakan website KilatCare! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
+
+## [Kunjungi Website KilatCare](https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/)
