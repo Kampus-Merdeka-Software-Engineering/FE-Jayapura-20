@@ -3,8 +3,10 @@
 
 body {
     font-family: 'Nunito Sans', sans-serif;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+  
 }
 
 .active {
@@ -84,6 +86,10 @@ body {
     animation-fill-mode: forwards;
 }
 
+.lokasi iframe{
+    width: 100%;
+}
+
 @keyframes example {
   from {
     top: 0px;
@@ -112,27 +118,32 @@ body {
     font: 1em sans-serif;
     font-size: 18px;
     text-align: center;
+
 }
 
 .outlet-judul {
     line-height: 10px;
     font-family: 'Nunito Sans', sans-serif; 
     font-size: 20px;
-    margin-top: 700px;
+    margin-top: 20px;
+    min-height: 30vh;
+    position: relative;
 }
 
 .block {
-    display: block;
-    justify-content: flex-start;
-    font-size: 14px;
-    margin-top: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    text-align: left;
-    color: #ffffff;
-    background-color: #0E0F52;
-    font-family: 'Nunito Sans', sans-serif;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   color: #ffffff;
+   background-color: #0E0F52;
+   font-size: 14px;
+   font-family: 'Nunito Sans', sans-serif;
+   text-align: left;
+   padding-left: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px;   
 }
 
 
@@ -147,6 +158,5 @@ body {
     height: 100px;
     margin-bottom: 10px;
   }
-
  
 }

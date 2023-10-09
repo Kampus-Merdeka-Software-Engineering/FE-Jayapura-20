@@ -6,10 +6,19 @@
     <title>KILATCARE</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="@icon/themify-icons/themify-icons.css" />
-    <link rel="stylesheet" href="https://unpkg.com/@icon/themify-icons/themify-icons.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@icon/themify-icons/themify-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <script src="https://kit.fontawesome.com/dcacf6287e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/dcacf6287e.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
@@ -36,9 +45,11 @@
     </div>
 
     <div class="Word">
-      <div class="Wordtext">LAYANAN</div>
+      <div class="judul">LAYANAN</div>
       <div class="kolom">
-        <img class="gambar" src="asset/dolly.png" alt="Gambar 1" />
+        <div class="kolom-ikon">
+          <i class="fa-solid fa-dolly"></i>
+        </div>
         <h2>Kilat Same Day</h2>
         <p>
           Nikmati kecepatan tanpa kompromi dengan layanan pengiriman dalam
@@ -49,7 +60,9 @@
         </p>
       </div>
       <div class="kolom">
-        <img class="gambar" src="asset/truck.png" alt="Gambar 2" />
+        <div class="kolom-ikon">
+          <i class="fa-solid fa-truck"></i>
+        </div>
         <h2>Kilat Reguler</h2>
         <p>
           Layanan pengiriman reguler kami memberikan keseimbangan yang sempurna
@@ -60,7 +73,9 @@
         </p>
       </div>
       <div class="kolom">
-        <img class="gambar" src="asset/truckExpress.png" alt="Gambar 3" />
+        <div class="kolom-ikon">
+          <i class="fa-solid fa-truck-fast"></i>
+        </div>
         <h2>Kilat Express</h2>
         <p>
           Dapatkan barang Anda dalam hitungan jam dengan layanan pengiriman
@@ -71,6 +86,7 @@
         </p>
       </div>
     </div>
+
     <div class="sejarah-judul">SEJARAH PERUSAHAAN</div>
     <div class="sejarah">
       <div class="sejarah-video">
@@ -160,6 +176,7 @@
         </div>
       </div>
     </div>
+
     <div class="judul">HUBUNGI KAMI</div>
     <div class="hubungi">
       <div class="hubungi-form">
@@ -173,6 +190,7 @@
             placeholder="Sinta Nastalia"
             required
           /><br />
+
           <label for="pesan">Pesan <span class="merah">*</span></label
           ><br />
           <textarea
@@ -182,6 +200,7 @@
             required
           ></textarea
           ><br />
+
           <label for="img">Pilih Gambar: </label>
           <input
             type="file"
@@ -189,7 +208,8 @@
             name="img"
             accept="image/jpeg, image/png, image/jpg"
           />
-          <button type="submit" id="kirim" class="kirim">KIRIM</button
+
+          <button type="submit" id="kirim" class="kirim" onclick="addPesan()">KIRIM</button
           ><br />
         </div>
       </div>
@@ -197,6 +217,7 @@
         <img class="hubungi-img" src="asset/logo (2).png" alt="logo"/>
       </div>
     </div>
+
     <div class="review" id="review">
       <div class="review-slide">
         <img class="review-img" src="asset/person1.jpg" alt="person1" />
@@ -239,11 +260,12 @@
           pengiriman cepat yang juga peduli pada planet kita."
         </div>
       </div>
-      <button class="review-button" onclick="plusDivs(-1)">&#10094;</button>
-      <button class="review-button-right" onclick="plusDivs(1)">
-        &#10095;
-      </button>
+      <div class="button-click">
+        <button class="review-button" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="review-button-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
     </div>
+
     <div class="footer">
       <div class="footer-judul">TEMUKAN KAMI</div>
       <div class="footer-img">
@@ -289,3 +311,4 @@
     <script src="js/review.js"></script>
   </body>
 </html>
+<!-- the new one -->

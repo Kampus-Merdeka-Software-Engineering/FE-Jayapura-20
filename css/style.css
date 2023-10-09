@@ -3,6 +3,8 @@
 body {
   font-family: 'Nunito Sans', sans-serif;
   margin:0;
+  min-height: 100vh;
+  position: relative;
 }
 
 .active {
@@ -60,7 +62,6 @@ body {
 }
 
 .header {
-  margin-bottom: 50px;
   max-width: 100%;
   height: 400px;
 }
@@ -106,6 +107,7 @@ body {
   position: relative;
   animation-fill-mode: forwards;
   text-align: center;
+  width: 100%;
 }
 
 .sejarah-judul {
@@ -200,22 +202,16 @@ body {
 }
 
 .hubungi {
-  display: inline-flex;
-  vertical-align: auto;
-  line-height: 20px;
-  text-align: left;
+  display: flex;
 }
 
 .hubungi-img {
   width: 550px;
-  height: 100%;
-  display: flex;
 }
 
 .hubungi-form {
-  display: flex;
   width: 700px;
-  height: 500px;
+  height: 400px;
   margin-left: 20px;
 }
 
@@ -265,7 +261,6 @@ body {
   width: 600px;
   height: 60px;
   margin-top: 10px;
-  margin-bottom: 40px;
   color: white;
   background-color: #6478c3;
   font-family: 'Nunito Sans', sans-serif;
@@ -289,7 +284,6 @@ body {
 .review-img {
   width: 40%;
   height: 500px;
-  margin: 0;
 }
 
 .review-text {
@@ -312,19 +306,30 @@ body {
   margin-bottom: 20px;
 }
 
-.review-button {
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  margin-top: 30%;
-  left: 65%;
+.button-click{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
-.review-button-right {
-  position: absolute;
+
+.review-button {
   height: 50px;
-  width: 50px;
-  margin-top: 30%;
-  right: 27%;
+  width: 50%;
+  background-color: #e3e9fc;
+  border-width: 0;
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.review-button-right {
+  height: 50px;
+  width: 50%;
+  background-color: #e3e9fc;
+  border-width: 0;  
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
 }
 
 .footer {
@@ -336,7 +341,7 @@ body {
   justify-content: space-evenly;
   padding-bottom: 30px;
   margin-bottom: 0;
-  margin-top: 70px;
+  margin-top: 150px;
 }
 
 .footer-judul {
@@ -463,33 +468,14 @@ hr {
 .Word {
   display: flex;
   max-width: 100%;
-}
-
-.Wordtext {
-    font-weight: 600;
-    margin: 17px;
-    text-align: center;
-    overflow: hidden;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    padding-top: 0px;
-    line-height: 1.5;
-    animation-name: example;
-    animation-duration: 1s;
-    position: relative;
-    animation-fill-mode: forwards;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .kolom {
   text-align: center;
   float: left;
-  width: 33,33%;
+  width: 30%;
   padding: 10px;
   margin: 10px;
   border: 1px solid #ddd;
@@ -499,30 +485,31 @@ hr {
   color: #f2f2f2;
 }
 
-.block-bawah {
-    display: block;
-    justify-content: flex-start;
-    font-size: 14px;
-    margin-top: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    text-align: left;
-    color: #ffffff;
-    background-color: #0E0F52;
-    font-family: 'Nunito Sans', sans-serif;
+.kolom-ikon{
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 
+.block-bawah {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
+   color: #ffffff;
+   background-color: #0E0F52;
+   font-size: 14px;
+   font-family: 'Nunito Sans', sans-serif;
+   text-align: left;
+   padding-left: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px;   
+}
 
-/* Gaya CSS untuk gambar */
 .gambar {
   width: 15%;
   height: 15%;
-}
-
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -611,7 +598,7 @@ hr {
   }
 
   .sejarah-judul {
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
   .sejarah {
@@ -695,25 +682,22 @@ hr {
     padding-right: 20px;
   }
 
-  .review-button {
-    border: none;
-    background-color: transparent;
-  }
-
-  .review-button-right {
-    right: 20%;
-    border: none;
-    background-color: transparent;
-  }
-
   .kirim {
     width: 384px;
     height: 60px;
   }
 
-  .Word{
-    width: 100%;
-    display:inline;
+  .kolom{
+    height: auto;
+    font-size: 10px;
+  }
+
+  .kolom h2{
+    font-size: 25px;
+  }
+
+  .kolom-ikon {
+    font-size: 30px;
   }
 }
 
@@ -739,7 +723,6 @@ hr {
 
   .sejarah-judul {
     font-size: 20px;
-    margin-top: 100px;
   }
 
   .sejarah-video {
@@ -791,12 +774,16 @@ hr {
 
   .hubungi {
     display: inline;
+    height: auto;
   }
 
   .hubungi-img {
     width: 100%;
     height: auto;
-    margin-top: 40px;
+  }
+
+  .hubungi-form{
+    height: 350px;
   }
 
   .hubungi-form label {
@@ -812,7 +799,7 @@ hr {
   }
 
   .kirim {
-    width: 85%;
+    width: 50%;
     height: 60px;
     display: block;
     margin-left: 0px;
@@ -820,21 +807,21 @@ hr {
 
   .review {
     width: 100%;
-    height: 200px;
-    flex-wrap: wrap;
+    height: 150px;
   }
 
   .review-img {
-    height: 200px;
+    height: 150px;
     width: 40%;
   }
 
   .review-slide {
     width: 100%;
+    height: 150px;
   }
 
   .review-text {
-    height: 200px;
+    height: 150px;
     padding-right: 20px;
     font-size: 0.7em;
     padding-top: 5px;
@@ -849,26 +836,19 @@ hr {
   }
 
   .review-button-right {
-    right: 20%;
     height: 20px;
-    width: 20px;
-    border: none;
-    background-color: transparent;
-    margin-top: 40%;
+    font-size: 10px;
+    font-weight: 100;
   }
 
   .review-button {
-    right: 20%;
     height: 20px;
-    width: 20px;
-    border: none;
-    background-color: transparent;
-    margin-top: 40%;
-    left: 70%;
+    font-size: 10px;
+    font-weight: 100;
   }
 
   .footer {
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .footer-judul {
@@ -876,6 +856,13 @@ hr {
     line-height: 1;
   }
 
+  .footer-img{
+    width: 100px;
+  }
+
+  .footer-info{
+    width: 30%;
+  }
 
   .footer-judulinfo {
     font-size: 12px;
@@ -899,5 +886,9 @@ hr {
 
   hr {
     margin-top: 10px;
+  }
+
+  .kolom{
+    width: 100%;
   }
 }
