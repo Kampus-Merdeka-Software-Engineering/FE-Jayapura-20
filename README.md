@@ -1,7 +1,11 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/0wBSnje4)
 # KilatCare - Penyedia Informasi Pengiriman Barang
 <p align="center">
+<<<<<<< HEAD
   <img src="hhttps://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/asset/logo (2).png" alt="logo" width="600px" height="200px">
+=======
+  <img src="https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/asset/logo (2).png" alt="logo" width="450px" height="300px">
+>>>>>>> ee9bf23bbf2c6fa93a870025db54ae80dc60240f
 </p>
 KilatCare adalah website penyedia informasi pengiriman barang yang mengutamakan kecepatan, keamanan, dan kepuasan pelanggan. 
 Layanan kami mencakup:
@@ -27,29 +31,21 @@ Navbar kami berada di bagian atas setiap halaman dan menyediakan akses cepat ke 
 - **Drop Point**: Temukan drop point terdekat untuk pengiriman dan pengambilan barang.
 
 ## Halaman Beranda
-
 Halaman Beranda adalah tempat utama untuk memulai. Di sini, Anda dapat:
-
 - **Pesan atau Review**: Bagi pengalaman Anda atau tanyakan pertanyaan Anda tentang pengiriman. Kami akan segera merespons.
 - **Info Kontak**: Temukan informasi kontak untuk masing-masing lokasi, termasuk nomor telepon dan alamat.
 
 ## Halaman Lokasi Utama
-
 Halaman Lokasi Utama membantu Anda menemukan lokasi fisik KilatCare kami. Anda dapat:
-
 - **Melihat Peta**: Lihat peta yang menunjukkan lokasi utama kami.
 
 ## Halaman Cek Biaya Kirim
-
 Di halaman ini, Anda dapat:
-
 - **Isi Detail Pengiriman**: Isi detail pengiriman Anda, seperti berat dan dimensi barang, serta alamat pengiriman dan tujuan.
 - **Hitung Biaya Kirim**: Tekan tombol "Cek Ongkir" untuk mendapatkan perkiraan biaya pengiriman Anda.
 
 ## Halaman Drop Point
-
 Temukan drop point terdekat di halaman ini. Anda dapat:
-
 - **Lihat Lokasi**: Lihat daftar drop point beserta alamatnya.
 - **Cari Lokasi Terdekat**: Gunakan alat pencarian untuk menemukan drop point terdekat berdasarkan lokasi Anda.
 
@@ -93,6 +89,12 @@ Seluruh anggota tim berperan penting dalam menjalankan proyek KilatCare dan berk
 
 
 ## Terima Kasih
+<<<<<<< HEAD
 Sekian dari project kami, kami masih belajar dan akan terus berusaha untuk menjadi lebih baik. Akhir kata, Selamat menggunakan website KilatCare! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
 
 ## [Kunjungi Website KilatCare](https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/)
+=======
+Sekian dari project kami. Akhir kata, Terima kasih telah memilih KilatCare sebagai layanan informasi pengiriman Anda. Kami akan terus berupaya menjadi lebih baik di masa depan!
+
+## [Kunjungi Website KilatCare](https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/)
+>>>>>>> ee9bf23bbf2c6fa93a870025db54ae80dc60240f
