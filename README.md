@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/0wBSnje4)
 # KilatCare - Penyedia Informasi Pengiriman Barang
 <p align="center">
-  <img src="https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/asset/logo (2).png" alt="logo" width="450px" height="200px">
+  <img src="https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/asset/logo (2).png" alt="logo" width="450px" height="300px">
 </p>
 KilatCare adalah website penyedia informasi pengiriman barang yang mengutamakan kecepatan, keamanan, dan kepuasan pelanggan. 
 Layanan kami mencakup:
