@@ -1,11 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/0wBSnje4)
 # KilatCare - Penyedia Informasi Pengiriman Barang
 <p align="center">
-<<<<<<< HEAD
   <img src="hhttps://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/asset/logo (2).png" alt="logo" width="600px" height="200px">
-=======
   <img src="https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/asset/logo (2).png" alt="logo" width="450px" height="300px">
->>>>>>> ee9bf23bbf2c6fa93a870025db54ae80dc60240f
 </p>
 KilatCare adalah website penyedia informasi pengiriman barang yang mengutamakan kecepatan, keamanan, dan kepuasan pelanggan. 
 Layanan kami mencakup:
@@ -89,12 +86,12 @@ Seluruh anggota tim berperan penting dalam menjalankan proyek KilatCare dan berk
 
 
 ## Terima Kasih
-<<<<<<< HEAD
+
 Sekian dari project kami, kami masih belajar dan akan terus berusaha untuk menjadi lebih baik. Akhir kata, Selamat menggunakan website KilatCare! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
 
 ## [Kunjungi Website KilatCare](https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/)
-=======
+
 Sekian dari project kami. Akhir kata, Terima kasih telah memilih KilatCare sebagai layanan informasi pengiriman Anda. Kami akan terus berupaya menjadi lebih baik di masa depan!
 
 ## [Kunjungi Website KilatCare](https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/)
->>>>>>> ee9bf23bbf2c6fa93a870025db54ae80dc60240f
+
