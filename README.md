@@ -29,7 +29,7 @@ Navbar kami berada di bagian atas setiap halaman dan menyediakan akses cepat ke 
 
 ## Halaman Beranda
 Halaman Beranda adalah tempat utama untuk memulai. Di sini, Anda dapat:
-- **Pesan atau Review**: Bagi pengalaman Anda atau tanyakan pertanyaan Anda tentang pengiriman. Kami akan segera merespons.
+- **Pesan atau Review**: Bagi pengalaman atau masukan anda.
 - **Info Kontak**: Temukan informasi kontak untuk masing-masing lokasi, termasuk nomor telepon dan alamat.
 
 ## Halaman Lokasi Utama
