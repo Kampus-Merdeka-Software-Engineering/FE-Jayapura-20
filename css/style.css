@@ -176,6 +176,13 @@ body {
   text-align: center;
   background-color: #c2e2ff;
   width: 30%;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-bottom: 20px;
+  background-color: #c2e2ff;
+}
+
+.unggul1:hover{
+  transform: scale(1.1);
 }
 
 .unggul1-ikon {
