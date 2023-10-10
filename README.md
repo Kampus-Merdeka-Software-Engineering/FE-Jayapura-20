@@ -88,10 +88,5 @@ Seluruh anggota tim berperan penting dalam menjalankan proyek KilatCare dan berk
 ## Terima Kasih
 
 Sekian dari project kami, kami masih belajar dan akan terus berusaha untuk menjadi lebih baik. Akhir kata, Selamat menggunakan website KilatCare! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
-
-## [Kunjungi Website KilatCare](https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/)
-
-Sekian dari project kami. Akhir kata, Terima kasih telah memilih KilatCare sebagai layanan informasi pengiriman Anda. Kami akan terus berupaya menjadi lebih baik di masa depan!
-
 ## [Kunjungi Website KilatCare](https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/)
 
