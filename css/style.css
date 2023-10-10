@@ -35,11 +35,7 @@ body {
   float: left;
   text-align: center;
   color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-style: normal;
+  padding: 15px;
   font-weight: 600;
   text-decoration: none;
   font-size: 0.8em;
@@ -292,7 +288,6 @@ body {
   width: 60%;
   height: 500px;
   margin: 0;
-  flex-direction: column;
   padding-left: 20px;
   padding-top: 20px;
   padding-right: 20px;
@@ -380,7 +375,6 @@ body {
 .footer-text li {
   list-style-type: none;
   font-size: 16px;
-  text-decoration: none;
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -388,7 +382,6 @@ body {
   font-size: 20px;
   align-items: center;
   margin: 3px;
-  font-family: 'Nunito Sans', sans-serif;
 }
 
 hr {
@@ -406,6 +399,7 @@ hr {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-bottom: 15px;
 }
 
 .pilihdp label{
@@ -438,20 +432,35 @@ hr {
   position: relative;
   width: 15%;
 }
+
 .blokdp{
-  background-color: lightgrey;
+  background-color: #c2e2ff;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 30px;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 10px;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.kategori{
+  background-color: #3f64df;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+  text-align: center;
 }
 
 .kota{
   font-weight: 600;
-  padding-right: 40px;
   width: 20%;
+}
+
+.kosong{
+  padding: 30px;
 }
 
 .alamat {
@@ -483,6 +492,12 @@ hr {
   border-radius: 10px;
   background-color: #405DB8;
   color: #f2f2f2;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.kolom:hover {
+  background-color: #00039e;
+  transform: scale(1.1);
 }
 
 .kolom-ikon{
@@ -510,85 +525,6 @@ hr {
 .gambar {
   width: 15%;
   height: 15%;
-}
-
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {
-    width: 8.33%;
-  }
-  .col-s-2 {
-    width: 16.66%;
-  }
-  .col-s-3 {
-    width: 25%;
-  }
-  .col-s-4 {
-    width: 33.33%;
-  }
-  .col-s-5 {
-    width: 41.66%;
-  }
-  .col-s-6 {
-    width: 50%;
-  }
-  .col-s-7 {
-    width: 58.33%;
-  }
-  .col-s-8 {
-    width: 66.66%;
-  }
-  .col-s-9 {
-    width: 75%;
-  }
-  .col-s-10 {
-    width: 83.33%;
-  }
-  .col-s-11 {
-    width: 91.66%;
-  }
-  .col-s-12 {
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {
-    width: 8.33%;
-  }
-  .col-2 {
-    width: 16.66%;
-  }
-  .col-3 {
-    width: 25%;
-  }
-  .col-4 {
-    width: 33.33%;
-  }
-  .col-5 {
-    width: 41.66%;
-  }
-  .col-6 {
-    width: 50%;
-  }
-  .col-7 {
-    width: 58.33%;
-  }
-  .col-8 {
-    width: 66.66%;
-  }
-  .col-9 {
-    width: 75%;
-  }
-  .col-10 {
-    width: 83.33%;
-  }
-  .col-11 {
-    width: 91.66%;
-  }
-  .col-12 {
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 820px) {
